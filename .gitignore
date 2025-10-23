@@ -8,6 +8,8 @@
 
 # testing
 /coverage
+*.lcov
+.jest-cache
 
 # next.js
 /.next/
