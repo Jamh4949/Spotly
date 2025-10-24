@@ -35,7 +35,7 @@ describe('Sidebar', () => {
     render(<Sidebar />)
     
     // Verificar que el botón está presente
-    const button = screen.getByRole('button', { name: 'Botón' })
+    const button = screen.getByRole('button', { name: 'Post' })
     expect(button).toBeInTheDocument()
     expect(button).toHaveClass('bg-[#F4AF01]')
   })

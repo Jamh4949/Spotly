@@ -41,7 +41,7 @@ jobs:
       - name: Run Build
         run: npm run build
 
-  # SOLO CD para Staging (eliminamos testing)
+  # CD para Staging - SOLO este deploy
   deploy-staging:
     name: Deploy to Staging
     runs-on: ubuntu-latest
