@@ -26,7 +26,7 @@ export default function Sidebar() {
                 <SidebarLink Icon={EllipsisHorizontalCircleIcon} text="More" /> 
                 <button className=' xl:block bg-[#F4AF01] w-[200px] h-[52px]
                 rounded-full text-white font-medium cursor-pointer
-                shadow-md mt-2'>    Botón</button>
+                shadow-md mt-2'> Post </button>
                 </ul>
                 <div className='absolute bottom-0'>
                     User Info
